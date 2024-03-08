@@ -1,11 +1,14 @@
 /*  your css code here. If applicable */
+#grid > div {
+  overflow: hidden; /* This will hide any content that goes outside the grid item */
+}
 #grid {
-	width: 500px;
-	height: 300px;
+	/* width: 500px;
+	height: 300px; */
 	display: grid;
-	gap: 5px;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	/* grid-template-columns: 242.5px 242.5px 242.5px 242.5px; */
+	grid-template-rows: 124px 124px 124px 124px 124px;
 	grid-template-areas:
 	"a a a a"
 	"b c d d"
